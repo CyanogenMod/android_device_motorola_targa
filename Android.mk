@@ -24,6 +24,6 @@ LOCAL_SRC_FILES    := fstab.mapphone_cdma
 LOCAL_MODULE_PATH  := $(TARGET_ROOT_OUT)
 include $(BUILD_PREBUILT)
 
-endif
-
 include $(call all-makefiles-under,$(LOCAL_PATH))
+
+endif
