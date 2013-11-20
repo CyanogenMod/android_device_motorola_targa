@@ -44,5 +44,10 @@
         <item>"/dev/ttyUSB4"</item>
     </string-array>
 
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">motoxt875</string>
+
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.vtext.com/mot/xt875/xt875.xml</string>
 </resources>
 
