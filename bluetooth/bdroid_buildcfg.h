@@ -19,4 +19,8 @@
 
 #define BTM_DEF_LOCAL_NAME   "Motorola Droid Bionic"
 
+#define BLE_INCLUDED TRUE
+#define BTA_DISABLE_DELAY 1000 /* in milliseconds */
+#define BTM_DEFAULT_SCO_MODE 0
+
 #endif
