@@ -44,7 +44,8 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilts
 PRODUCT_COPY_FILES += \
-    $(DEVICE_FOLDER)/media_profiles.xml:system/etc/media_profiles.xml
+    $(DEVICE_FOLDER)/media_profiles.xml:system/etc/media_profiles.xml \
+    $(DEVICE_FOLDER)/prebuilt/usr/keylayout/atmxt-i2c.kl:system/usr/keylayout/atmxt-i2c.kl
 
 PRODUCT_PACKAGES += fstab.mapphone_cdma
 
