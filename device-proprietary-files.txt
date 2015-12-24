@@ -1,5 +1,5 @@
 # system/lib/hw
-lib/hw/gps.targa.so
+lib/hw/gps.vendor.so
 lib/hw/sensors.targa.so
 
 # system/lib
