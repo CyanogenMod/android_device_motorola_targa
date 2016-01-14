@@ -42,3 +42,6 @@ TARGET_KERNEL_VARIANT_CONFIG := mapphone_targa_defconfig
 
 # Specific recovery settings
 TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/recovery.fstab
+
+BOARD_SEPOLICY_DIRS += \
+    device/motorola/targa/sepolicy
