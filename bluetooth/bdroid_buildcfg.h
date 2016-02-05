@@ -19,4 +19,6 @@
 
 #define BTM_DEF_LOCAL_NAME   "Motorola Droid Bionic"
 
+#include "../../omap4-common/bluetooth/bdroid_common.h"
+
 #endif
